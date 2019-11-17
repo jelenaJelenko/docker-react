@@ -7,5 +7,3 @@ services:
   
   script:
   - docker run -e CI=true jelenaJelenko/docker-react npm run test
-  
-  language: generic 
