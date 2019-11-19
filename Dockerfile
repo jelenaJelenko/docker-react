@@ -7,4 +7,5 @@ RUN npm run build
 
 #/app/build ce imati sve potrebno i izbuildano
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
